@@ -26,12 +26,13 @@ int main()
   //with the value of that element
 
   
-
-
-
+    for (int i=0 ; i < wordGrid.length() ; i++)
+        {
+        for (int j=0; j < wordGrid[i].length ; j++)
+            {
+            cout<<"Row "<<i<<" Column "<<j<<" is "<<wordGrid[i][j]<<endl;
+            }
+        }
  return 0;
 }
-
-
-
 
